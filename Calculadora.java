@@ -19,13 +19,13 @@ public class Ahorcado {
             a = teclado.next(); 
  
             if (opcion.equals(1)) {
-                resultado = a + b;
-            } else if (opcion.equals(2)) {
-                resultado = a - b;
-            } else if (opcion.equals(3)) {
                 resultado = a * b;
-            } else {
+            } else if (opcion.equals(2)) {
+                resultado = a + b;
+            } else if (opcion.equals(3)) {
                 resultado = a / b;
+            } else {
+                resultado = a - b;
             } 
  
             System.out.println("El resultado es " + resultado.toString());     
